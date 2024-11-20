@@ -6,6 +6,7 @@
     --red:#380702;
     --orange:#402802;
     --light-color:#4a4848;
+    --lite-color:#a7a3a3;
     --light-bg:#eee;
     --black:#0c2401;
     --white:#ffffff;;
@@ -145,7 +146,7 @@ box-shadow: 0 0 5px white, 0 0 10px var(--main-color), 0 0 15px var(--main-color
    padding:1rem 3rem;
    text-align: center;
    margin-top: 1rem;
-   background-color: var(--light-color);
+   background-color: var(--lite-color);
    box-shadow: 0 0 5px white, 0 0 10px var(--main-color), 0 0 15px var(--main-color);
 }
 

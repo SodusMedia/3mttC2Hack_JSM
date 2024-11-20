@@ -135,8 +135,18 @@ box-shadow: 0 0 5px white, 0 0 10px var(--main-color), 0 0 15px var(--main-color
 }
 
 .ibtn{
+   display: block;
+   width: 100%;
+   border-radius: .5rem;
+   color:#fff;
+   font-size: 1.8rem;
+   cursor: pointer;
+   text-transform: capitalize;
+   padding:1rem 3rem;
+   text-align: center;
+   margin-top: 1rem;
    background-color: var(--light-color);
-box-shadow: 0 0 5px white, 0 0 10px var(--main-color), 0 0 15px var(--main-color);
+   box-shadow: 0 0 5px white, 0 0 10px var(--main-color), 0 0 15px var(--main-color);
 }
 
 .option-btn,

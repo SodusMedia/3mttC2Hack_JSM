@@ -134,6 +134,11 @@ section{
 box-shadow: 0 0 5px white, 0 0 10px var(--main-color), 0 0 15px var(--main-color);
 }
 
+.ibtn{
+   background-color: var(--light-color);
+box-shadow: 0 0 5px white, 0 0 10px var(--main-color), 0 0 15px var(--main-color);
+}
+
 .option-btn,
 .inline-option-btn{
    background-color:var(--main-color);

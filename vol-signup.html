@@ -55,59 +55,65 @@
 
               <section class="form-container">
      
-               <form action="" method="post" enctype="multipart/form-data">
-                  <h3>Volunteer Sign Up</h3>
-                  <p>Full Name <span>*</span></p>
-                  <input type="text" name="email" placeholder="Enter your Full name" required maxlength="50" class="box">
-                  
-                  <p>NIN <span>*</span></p>
-                  <input type="number" name="email" placeholder="Enter your National Identification Number" required maxlength="50" class="box">
-                  
-                  <p>Phone Number <span>*</span></p>
-                  <input type="tel" name="email" placeholder="Enter your Phone Number" required maxlength="50" class="box">
-                  
-                  <p>Your Email Address<span>*</span></p>
-                  <input type="email" name="email" placeholder="Enter your Email Address" required maxlength="50" class="box">
-                  
-                  <p>Create Password <span>*</span></p>
-                  <input type="password" name="pass" placeholder="Your Password" required maxlength="20" class="box">
-                  
-                  <p>Confirm Password <span>*</span></p>
-                  <input type="password" name="c_pass" placeholder="Confirm your Password" required maxlength="20" class="box">
-                  
-                  <p>Address <span>*</span></p>
-                  <input type="address" name="address" placeholder="Enter your Current Address with State" required maxlength="50" class="box">
-                  
-                  <p>State<span>*</span></p>
-                  <input type="state" name="state" placeholder="Enter your State of Origin" required maxlength="50" class="box">
-                  
-                  <p>School<span>*</span></p>
-                  <input type="sch" name="sch" placeholder="Enter your Secondary School with Address" required maxlength="50" class="box">
-                  
-                  <p>Birthday<span>*</span></p>
-                  <input type="date" name="birth" placeholder="Enter your Birth Date" required maxlength="50" class="box">
-                  
-                  <p>Sec. Sch. Set<span>*</span></p>
-                  <input type="date" name="set" placeholder="Enter your Graduation Year" required maxlength="50" class="box">
-                  
-                  <p>Portfolio Link <span>*</span></p>
-                  <input type="url" name="link" placeholder="Share your Portfolio Link" required maxlength="50" class="box">
-                  
-                  <p>Upload your Picture <span>*</span></p>
-                  <input type="file" name="picture" placeholder="Upload your Picture" accept="image/*" required class="box">
-   
-                  <h1>BIOMETRIC:  Fingerprint or Facial Recognition</h1> <br>
-   
-                 <!-- <a href="vol-login.html" class="btn">Register</a>-->
-               </form>
-               <input type="submit" value="Register" onclick="myFunctione()"  name="submit" class="btn">
-               <input type="reset" value="cancel" name="submit" class="ibtn">
-   
-   
-            </form>
-            </section>
-   
-           </div>
+                <form action="" method="post" enctype="multipart/form-data">
+                   <h3>Student Sign Up</h3>
+                   
+                   <p>Full Name <span>*</span></p>
+                   <input type="text" name="name" placeholder="Enter your Full Name" required maxlength="50" class="box">
+                   
+                   <p>NIN <span>*</span></p>
+                   <input type="number" name="nin" placeholder="Enter your National Identification Number" required maxlength="50" class="box">
+                   
+                   <p>Gender <span>*</span></p>
+                   <select class="box" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="option" selected>Choose your Gender</option>
+                  </select>
+                 <!-- <input type="gender" name="gender" placeholder="Enter your Gender" required maxlength="50" class="box">-->
+                   
+                   <p>Phone Number <span>*</span></p>
+                   <input type="tel" name="phone number" placeholder="Enter your Phone Number" required maxlength="50" class="box">
+                   
+                   <p>Your Email Address<span>*</span></p>
+                   <input type="email" name="email" placeholder="Enter your Email Address" required maxlength="50" class="box">
+                   
+                   <p>Create Password <span>*</span></p>
+                   <input type="password" name="pass" placeholder="Create Password" required maxlength="20" class="box">
+                   
+                   <p>Confirm Password <span>*</span></p>
+                   <input type="password" name="c_pass" placeholder="Confirm your Password" required maxlength="20" class="box">
+                   
+                   <p>Address <span>*</span></p>
+                   <input type="address" name="address" placeholder="Enter your Current Address with State" required maxlength="50" class="box">
+                   
+                   <p>State<span>*</span></p>
+                   <input type="state" name="state" placeholder="Enter your State of Origin" required maxlength="50" class="box">
+                   
+                   <p>School<span>*</span></p>
+                   <input type="sch" name="sch" placeholder="Enter your Secondary School name with address" required maxlength="50" class="box">
+                   
+                   <p>Birthday<span>*</span></p>
+                   <input type="date" name="birth" placeholder="Enter your Birth Date" required maxlength="50" class="box">
+                   
+                   <p>Sec. Sch. Set<span>*</span></p>
+                   <input type="date" name="set" placeholder="Enter your Graduation Year" required maxlength="50" class="box">
+                   
+                   <p>Upload Picture <span>*</span></p>
+                   <input type="file" name="picture" placeholder="Upload your Picture" accept="image/*" required class="box">
+                   
+                   <p>Add Parental/Guidance Consent Form <span>*</span></p>
+                   <input type="file" name="any" placeholder="Upload the Form" accept="image/*" required class="box">
+        
+                   <h1>BIOMETRIC:  Fingerprint or Facial Recognition</h1> <br>
+        
+                  <!--  <a href="login.html" class="btn"></a>-->
+                  <input type="submit" value="Register" onclick="myFunctione()"  name="submit" class="btn">
+                   <input type="reset" value="cancel" name="submit" class="ibtn">
+                </form>
+                   
+
+             </section>
 
       <footer class="footer">
        <div class="footer-container">

@@ -42,6 +42,9 @@ form.addEventListener('submit', (event) => {
   // input length restrictions, etc.
 });*/
 
+function myFunction(){
+    window.location.href="login.html";
+}
 
 document.addEventListener('DOMContentLoaded', function() { 
    const searchInput = document.getElementById('search-input'); 

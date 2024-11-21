@@ -43,9 +43,9 @@ form.addEventListener('submit', (event) => {
 });*/
 
 
-function myFunction(){
+function myFunction(e){
     window.location.href="https://3mtt-c2-hack-jsm.vercel.app/login.html";
-    event.preventDefault();
+    e.preventDefault();
 }
 
 

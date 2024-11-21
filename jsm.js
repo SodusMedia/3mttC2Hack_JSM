@@ -17,7 +17,7 @@
     }
 }); */
 
-const form = document.getElementById('userForm');
+/*const form = document.getElementById('userForm');
 const displayArea = document.getElementById('displayArea');
 
 form.addEventListener('submit', (event) => {
@@ -40,7 +40,7 @@ form.addEventListener('submit', (event) => {
 
   // You can add more complex validation here, such as email format checking,
   // input length restrictions, etc.
-});
+});*/
 
 
 document.addEventListener('DOMContentLoaded', function() { 

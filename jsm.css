@@ -135,6 +135,11 @@ section{
 box-shadow: 0 0 5px white, 0 0 10px var(--main-color), 0 0 15px var(--main-color);
 }
 
+.box.offer h3, .box.offer p {
+   text-align: left;
+ }
+
+ 
 .ibtn{
    display: block;
    width: 100%;

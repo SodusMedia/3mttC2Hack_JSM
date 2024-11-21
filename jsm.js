@@ -40,11 +40,13 @@ form.addEventListener('submit', (event) => {
 
   // You can add more complex validation here, such as email format checking,
   // input length restrictions, etc.
-});*/
+});
 
 function myFunction(){
     window.location.href="https://3mtt-c2-hack-jsm.vercel.app/login.html";
-}
+}*/
+
+
 
 document.addEventListener('DOMContentLoaded', function() { 
    const searchInput = document.getElementById('search-input'); 

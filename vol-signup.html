@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Volunteer Sign Up</title>
+   <title>Volunteer Sign Up1</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
@@ -104,11 +104,18 @@
 
                <h1>BIOMETRIC:  Fingerprint or Facial Recognition</h1> <br>
 
-               <a href="vol-login.html" class="btn">Register</a>
-
-
-               <input type="reset" value="cancel" name="submit" class="ibtn">
+              <!-- <a href="vol-login.html" class="btn">Register</a>-->
             </form>
+            <input type="submit" value="Register" onclick="myFunction()"  name="submit" class="btn">
+            <input type="reset" value="cancel" name="submit" class="ibtn">
+
+            <script>
+               function myFunction(){
+    window.location.href="https://3mtt-c2-hack-jsm.vercel.app/vol-login.html";
+    Event.preventDefault();
+}
+            </script>
+         </form>
          
          </section>
 

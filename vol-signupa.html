@@ -3,7 +3,7 @@
     <head> 
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Student Sign Up</title> 
+        <title>Volunteer Sign Up</title> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
         <link rel="stylesheet" href="jsm.css"> 
@@ -27,7 +27,7 @@
 
                <div class="profile">
                   <div class="flex-btn">
-                    <a href="#" class="option-btn">Register</a>
+                    <a href="vol-login.html" class="option-btn">Login</a>
                   </div>
                </div>
 
@@ -56,10 +56,10 @@
               <section class="form-container">
      
                 <form action="" method="post" enctype="multipart/form-data">
-                   <h3>Student Sign Up</h3>
+                   <h3>Volunteer Sign Up</h3>
                    
                    <p>Full Name <span>*</span></p>
-                   <input type="text" name="name" placeholder="Enter your Full Name" required maxlength="50" class="box">
+                   <input type="text" name="name" placeholder="Enter your Surname First" required maxlength="50" class="box">
                    
                    <p>NIN <span>*</span></p>
                    <input type="number" name="nin" placeholder="Enter your National Identification Number" required maxlength="50" class="box">
@@ -102,12 +102,12 @@
                    <p>Upload Picture <span>*</span></p>
                    <input type="file" name="picture" placeholder="Upload your Picture" accept="image/*" required class="box">
                    
-                   <p>Add Parental/Guidance Consent Form <span>*</span></p>
-                   <input type="file" name="any" placeholder="Upload the Form" accept="image/*" required class="box">
+                   <p>Portfolio Link <span>*</span></p>
+                   <input type="url" name="link" placeholder="Share your Portfolio Link" required maxlength="50" class="box">    
         
                    <h1>BIOMETRIC:  Fingerprint or Facial Recognition</h1> <br>
         
-                  <!--  <a href="login.html" class="btn"></a>-->
+                  <!--  <a href="vol-login.html" class="btn"></a>-->
                   <input type="submit" value="Register" onclick="myFunctione()"  name="submit" class="btn">
                    <input type="reset" value="cancel" name="submit" class="ibtn">
                 </form>
@@ -152,7 +152,7 @@
         
      <script>
       function myFunctione(){
-window.location.href="https://3mtt-c2-hack-jsm.vercel.app/login.html";
+window.location.href="https://3mtt-c2-hack-jsm.vercel.app/vol-login.html";
 Event.preventDefault();
 }
    </script>

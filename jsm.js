@@ -42,11 +42,10 @@ form.addEventListener('submit', (event) => {
   // input length restrictions, etc.
 });*/
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault(); })
 
 function myFunction(){
     window.location.href="https://3mtt-c2-hack-jsm.vercel.app/login.html";
+    event.preventDefault();
 }
 
 

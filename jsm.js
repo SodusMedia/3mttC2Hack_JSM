@@ -43,7 +43,7 @@ form.addEventListener('submit', (event) => {
 });*/
 
 function myFunction(){
-    window.location.href="login.html";
+    window.location.href="https://3mtt-c2-hack-jsm.vercel.app/login.html";
 }
 
 document.addEventListener('DOMContentLoaded', function() { 

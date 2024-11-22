@@ -18,7 +18,7 @@
 .error-page {
    text-align: center;
    padding: 100px 0;
-   font-size: 26px;
+   font-size: 16px;
  }
  
  .error-container {
@@ -27,7 +27,7 @@
  }
  
  .error-image {
-   max-width: 100%;
+   max-width: 50%;
    margin-bottom: 30px;
  }
  

@@ -1,176 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Volunteer Sign Up</title>
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Volunteer Sign Up</title> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
-   <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <link rel="stylesheet" href="jsm.css"> 
+    </head> 
+    <body> 
 
-   <!-- custom css file link  -->
-   <link rel="stylesheet" href="jsm.css">
+      <header class="header">
 
-</head>
-<body>
+           <section class="flex">
+ 
+              <a href="index.html" class="logo">JSM</a>
 
-<header class="header">
-   
-   <section class="flex">
+                  
 
-         <a href="index.html" class="logo">JSM</a>
+               <div class="icons">
+                   <div id="menu-btn" class="fas fa-bars"></div>
+                   <div id="search-btn" class="fas fa-search"></div>
+                   <div id="user-btn" class="fas fa-user"></div>
+                   <div id="toggle-btn" class="fas fa-sun"></div>
+               </div>
 
+               <div class="profile">
+                  <div class="flex-btn">
+                    <a href="vol-login.html" class="option-btn">Login</a>
+                  </div>
+               </div>
 
-         <div class="icons">
-            <div id="menu-btn" class="fas fa-bars"></div>
-            <div id="search-btn" class="fas fa-search"></div>
-            <div id="user-btn" class="fas fa-user"></div>
-            <div id="toggle-btn" class="fas fa-sun"></div>
-         </div>
+           </section>
 
-         <div class="profile">
-             <div class="flex-btn">
-               <a href="login.html" class="option-btn">login</a>
-               <a href="signup.html" class="option-btn">register</a>
-             </div>
-         </div>
+      </header>
 
-   </section>
-
-</header>   
-
-   <div class="side-bar">
+         <div class="side-bar">
          
          
-         <div id="close-btn">
-         <i class="fas fa-times"></i>
-         </div>
-
-         <nav class="navbar">
-            <img src="images/student5.png" width="250" height="200" alt="JSM">
-            <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
-            <a href="about.html"><i class="fas fa-address-card"></i><span>About</span></a>
-            <a href="signup.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
-            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
-        </nav>
-
-         
-   </div>
-
-   
-           <section class="form-container">
-     
-            <form action="" method="post" enctype="multipart/form-data">
-               <h3>Volunteer Sign Up</h3>
-               <p>Full Name <span>*</span></p>
-               <input type="text" name="email" placeholder="Enter your Full name" required maxlength="50" class="box">
-               
-               <p>NIN <span>*</span></p>
-               <input type="number" name="email" placeholder="Enter your National Identification Number" required maxlength="50" class="box">
-               
-               <p>Phone Number <span>*</span></p>
-               <input type="tel" name="email" placeholder="Enter your Phone Number" required maxlength="50" class="box">
-               
-               <p>Your Email Address<span>*</span></p>
-               <input type="email" name="email" placeholder="Enter your Email Address" required maxlength="50" class="box">
-               
-               <p>Create Password <span>*</span></p>
-               <input type="password" name="pass" placeholder="Your Password" required maxlength="20" class="box">
-               
-               <p>Confirm Password <span>*</span></p>
-               <input type="password" name="c_pass" placeholder="Confirm your Password" required maxlength="20" class="box">
-               
-               <p>Address <span>*</span></p>
-               <input type="address" name="address" placeholder="Enter your Current Address with State" required maxlength="50" class="box">
-               
-               <p>State<span>*</span></p>
-               <input type="state" name="state" placeholder="Enter your State of Origin" required maxlength="50" class="box">
-               
-               <p>School<span>*</span></p>
-               <input type="sch" name="sch" placeholder="Enter your Secondary School with Address" required maxlength="50" class="box">
-               
-               <p>Birthday<span>*</span></p>
-               <input type="date" name="birth" placeholder="Enter your Birth Date" required maxlength="50" class="box">
-               
-               <p>Sec. Sch. Set<span>*</span></p>
-               <input type="date" name="set" placeholder="Enter your Graduation Year" required maxlength="50" class="box">
-               
-               <p>Portfolio Link <span>*</span></p>
-               <input type="url" name="link" placeholder="Share your Portfolio Link" required maxlength="50" class="box">
-               
-               <p>Upload your Picture <span>*</span></p>
-               <input type="file" name="picture" placeholder="Upload your Picture" accept="image/*" required class="box">
-
-               <h1>BIOMETRIC:  Fingerprint or Facial Recognition</h1> <br>
-
-               <a href="vol-login.html" class="btn">Register</a>
-
-
-               <input type="reset" value="cancel" name="submit" class="ibtn">
-            </form>
-         
-         </section>
-
-        </div>
-
-       <!-- <div class="box-container">
-
-            <div class="box">
-               <i class="fas fa-phone"></i>
-               <h3>phone number</h3>
-               <a href="tel:1234567890">+234-801-2345-888</a>
-               <a href="tel:1112223333">+234-701-6666-333</a>
-        </div>
+              <div id="close-btn">
+              <i class="fas fa-times"></i>
+              </div>
+              <nav class="navbar"> 
+                <div class="nav-image"><img src="images/student5.png" width="250" height="200" alt="JSM"></div>
+                <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+                <a href="about.html"><i class="fas fa-address-card"></i><span>About us</span></a>
+                <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+                <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>  
+              
       
-        <div class="box">
-             <i class="fas fa-envelope"></i>
-             <h3>email address</h3>
-             <a href="mailto:example@gmail.com">example@gmail.com</a>
-             <a href="mailto:testrun@yahoo.com">testrun@yahoo.com</a>
-             <a href="https://nitda.gov.ng/">National Information Technology Development Agency (NITDA)  </a>
+              </nav>
 
-        </div>
+              </div>
 
-        <div class="box">
-             <i class="fas fa-map-marker-alt"></i>
-             <h3>office address</h3>
-             <a href="#">Address: No. 28, Port Harcourt Crescent, Off Gimbiya Street, P.M.B 564, Area 11, Garki, Abuja, Nigeria.</a>
-       </div>
+              <section class="form-container">
+     
+                <form action="" method="post" enctype="multipart/form-data">
+                   <h3>Volunteer Sign Up</h3>
+                   
+                   <p>Full Name <span>*</span></p>
+                   <input type="text" name="name" placeholder="Enter your Surname First" required maxlength="50" class="box">
+                   
+                   <p>NIN <span>*</span></p>
+                   <input type="number" name="nin" placeholder="Enter your National Identification Number" required maxlength="50" class="box">
+                   
+                   <p>Gender <span>*</span></p>
+                   <select class="box" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="option" selected>Choose your Gender</option>
+                  </select>
+                 <!-- <input type="gender" name="gender" placeholder="Enter your Gender" required maxlength="50" class="box">-->
+                   
+                   <p>Phone Number <span>*</span></p>
+                   <input type="tel" name="phone number" placeholder="Enter your Phone Number" required maxlength="50" class="box">
+                   
+                   <p>Your Email Address<span>*</span></p>
+                   <input type="email" name="email" placeholder="Enter your Email Address" required maxlength="50" class="box">
+                   
+                   <p>Create Password <span>*</span></p>
+                   <input type="password" name="pass" placeholder="Create Password" required maxlength="20" class="box">
+                   
+                   <p>Confirm Password <span>*</span></p>
+                   <input type="password" name="c_pass" placeholder="Confirm your Password" required maxlength="20" class="box">
+                   
+                   <p>Address <span>*</span></p>
+                   <input type="address" name="address" placeholder="Enter your Current Address with State" required maxlength="50" class="box">
+                   
+                   <p>State<span>*</span></p>
+                   <input type="state" name="state" placeholder="Enter your State of Origin" required maxlength="50" class="box">
+                   
+                   <p>School<span>*</span></p>
+                   <input type="sch" name="sch" placeholder="Enter your Secondary School name with address" required maxlength="50" class="box">
+                   
+                   <p>Birthday<span>*</span></p>
+                   <input type="date" name="birth" placeholder="Enter your Birth Date" required maxlength="50" class="box">
+                   
+                   <p>Sec. Sch. Set<span>*</span></p>
+                   <input type="date" name="set" placeholder="Enter your Graduation Year" required maxlength="50" class="box">
+                   
+                   <p>Upload Picture <span>*</span></p>
+                   <input type="file" name="picture" placeholder="Upload your Picture" accept="image/*" required class="box">
+                   
+                   <p>Portfolio Link <span>*</span></p>
+                   <input type="url" name="link" placeholder="Share your Portfolio Link" required maxlength="50" class="box">    
+        
+                   <h1>BIOMETRIC:  Fingerprint or Facial Recognition</h1> <br>
+        
+                  <!--  <a href="vol-login.html" class="btn"></a>-->
+                  <input type="submit" value="Register" onclick="myFunctione()"  name="submit" class="btn">
+                   <input type="reset" value="cancel" name="submit" class="ibtn">
+                </form>
+                   
 
-      </div>
+             </section>
 
-   </section>-->
+      <footer class="footer">
+       <div class="footer-container">
+         <div class="policy">
+            <p>Privacy Policy</p> <br>
+            <p>User Agreement</p> <br>
+            <p>Cookie Policy</p> <br>  
+            <p>Copyright Policy</p> 
+         </div>
 
+         <div class="more">
+            <span>Download App for better experience.</span> <br> <br>
+            <span>Listen to our Podcast for audio versions.</span>  <br> <br>
+            <span>Community Guidelines.</span>  <br><br>
+            <span>Help Center.</span> 
 
+         </div>
+       </div> 
 
-
-
-   <footer class="footer">
-      <div class="footer-container">
-        <div class="policy">
-           <p>Privacy Policy</p> <br>
-           <p>User Agreement</p> <br>
-           <p>Cookie Policy</p> <br>  
-           <p>Copyright Policy</p> 
-        </div>
+       JSM  &copy; 2024 by <span>LearnMakers Team</span>
+    
+      </footer>
    
-        <div class="more">
-           <span>Download App for better experience.</span> <br> <br>
-           <span>Listen to our Podcast for audio versions.</span>  <br> <br>
-           <span>Community Guidelines.</span>  <br><br>
-           <span>Help Center.</span> 
-   
-        </div>
-      </div> 
-   
-      JSM  &copy; 2024 by <span>LearnMakers Team</span>
-   
-   </footer>
 
-<!-- custom js file link  -->
-<script src="jsm.js"></script>
-
+     
+     
    
-</body>
-</html>
+     
+     <!-- custom js file link  -->
+     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>
+     <script type="text" src="jms.js"></script>
+     <script src="https://unpkg.com/compromise"></script> <script src="jms.js"></script>
+     <script src="jsm.js"></script>
+     
+     
+        
+     <script>
+      function myFunctione(){
+window.location.href="https://3mtt-c2-hack-jsm.vercel.app/vol-login.html";
+Event.preventDefault();
+}
+   </script>
+          
+    </body> 
+    </html>
+
+
+
+    
+<!-- SUMMARY
+jsm.html: Landing page for users see the features, sign up or log in. Also option to become a volunteer.
+
+signup.html: Sign-up page with fields for National Identification Number, facial recognition, fingerprint upload, profile picture, full name, nickname/username, email, password creation, school information, and other details.
+
+profile.html: User's page with personal details submitted/resgistered with jsm. Also feeds for interaction and connections. 
+
+login.html: Login page with email and password fields.
+
+update.html: Personal details for changes and be updated.
+
+volunteers.html: Sign-up page with fields for National Identification Number, facial recognition, fingerprint upload, profile picture, full name, nickname/username, email, password creation, school information, and social media handles.
+
+volunteers_profile.html: Volunteers profile page with fields for National Identification Number, facial recognition, fingerprint upload, profile picture, full name, nickname/username, email, password creation, school information, and social media handles.
+
+update.html: Update fields to change personal information for students or volunteers.
+
+styles.css: CSS to style the website, ensuring a responsive design.
+
+script.js: JavaScript for handling form submissions and basic alerts.
+
+search.js: Placeholder for future AI search filter implementation.
+
+This setup provides a strong foundation for a responsive jsm platform. Further enhancements will and can include backend integration, AI functionalities, and dynamic content. < -->
+
+
+<!-- Secure account by setting up MFA
+Enable MFA and then set up an alternative MFA.
+
+Multi-factor authentication (MFA) methods
+For increased security, recommended configuring an MFA method to help protect your account. 
+
+Multi-factor authentication setup is now complete
+Your MFA methods have now been enabled. You can always add or remove more methods under your Account Application inside of the Security page.
+Multi-factor authentication (MFA) methods
+In the case that you lose access to your first enabled MFA method, set up another one to avoid being locked out -->

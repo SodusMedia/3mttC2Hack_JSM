@@ -17,6 +17,39 @@
     }
 }); */
 
+/*const form = document.getElementById('userForm');
+const displayArea = document.getElementById('displayArea');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent default form submission
+
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+
+  // Basic validation
+  if (name.trim() === '' || email.trim() === '') {
+    alert('Please fill in all fields.');
+    return;
+  }
+
+  // Display the validated input
+  displayArea.innerHTML = `
+    <p>Name: ${name}</p>
+    <p>Email: ${email}</p>
+  `;
+
+  // You can add more complex validation here, such as email format checking,
+  // input length restrictions, etc.
+});
+
+
+function myFunction(){
+    window.location.href="https://3mtt-c2-hack-jsm.vercel.app/login.html";
+    Event.preventDefault();
+}
+*/
+
+
 document.addEventListener('DOMContentLoaded', function() { 
    const searchInput = document.getElementById('search-input'); 
    const resultsList = document.getElementById('results'); 

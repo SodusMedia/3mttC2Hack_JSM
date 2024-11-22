@@ -13,7 +13,37 @@
     --border:.1rem solid rgba(0, 0, 0, 0.2);
  }
 
+/* ... Your existing CSS styles ... */
 
+.error-page {
+   text-align: center;
+   padding: 100px 0;
+ }
+ 
+ .error-container {
+   max-width: 600px;
+   margin: 0 auto;
+ }
+ 
+ .error-image {
+   max-width: 100%;
+   margin-bottom: 30px;
+ }
+ 
+ .error-heading {
+   font-size: 36px;
+   margin-bottom: 20px;
+ }
+ 
+ .error-button {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #333;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+ }
+ 
  details {
    border-radius: 5px;
    background: var(--white);
